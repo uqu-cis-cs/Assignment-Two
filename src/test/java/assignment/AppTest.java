@@ -18,17 +18,17 @@ public class AppTest {
      * Test of CalculateISBNCheck method, of class App.
      */
    @Test
-    public void test1CalculateISBNCheck() {
+    public void tc1() {
         assertEquals ("304013341X",App.calculateISBNCheck(304013341));
     }
     
     @Test
-    public void test2CalculateISBNCheck() {
+    public void tc2() {
         assertEquals ("1841462012",App.calculateISBNCheck(184146201));
     }
     
     @Test
-    public void test3CalculateISBNCheck() {
+    public void tc3() {
         assertEquals ("1841462020",App.calculateISBNCheck(184146202));
     }
     
@@ -36,17 +36,17 @@ public class AppTest {
      * Test of isValidDNA method, of class App.
      */
     @Test
-    public void test1IsValidDNA() {
+    public void tc4() {
         assertEquals (true,App.isValidDNA("ATAGCGGCAT"));
     }
     
     @Test
-    public void test2IsValidDNA() {
+    public void tc5() {
         assertEquals (false,App.isValidDNA("ABCDEFHIJK"));
     }
     
     @Test
-    public void test3IsValidDNA() {
+    public void tc6() {
         assertEquals (true,App.isValidDNA("atcgatcg"));
         
     }
@@ -55,12 +55,12 @@ public class AppTest {
      * Test of calculateCommon method, of class App.
      */
     @Test
-    public void test1calculateCommon() {
+    public void tc7() {
         assertEquals (1,App.calculateCommon("Hello","Hi"));
         
     }
     @Test
-    public void test2calculateCommon() {
+    public void tc8() {
         assertEquals (2,App.calculateCommon("Hello","Greetings"));
         
     }
@@ -69,12 +69,12 @@ public class AppTest {
      * Test of checkPalindrome method, of class App.
      */
     @Test
-    public void test1checkPalindrome() {
+    public void tc9() {
         assertEquals (true,App.checkPalindrome(45554));
         
     }
     @Test
-    public void test2checkPalindrome() {
+    public void tc10() {
         assertEquals (false,App.checkPalindrome(14651));
         
     }
@@ -82,13 +82,13 @@ public class AppTest {
      * Test of drawBarChart method, of class App.
      */
     @Test
-    public void test1drawBarChart() {
+    public void tc11() {
         assertEquals (9,App.drawBarChart(12321));
         
     }
     
     @Test
-    public void test2drawBarChart() {
+    public void tc12() {
         String expected = String.format("1: *2: **3: ***2: **1: *" ,
         System.lineSeparator(),
         System.lineSeparator());
