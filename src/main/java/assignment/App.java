@@ -84,9 +84,8 @@ public class App {
     }
     
     /* 
-    Write a method named drawPalindromeBarChart that takes a number of five digits as 
-    a parameter. Then, it displays for each digit the same number of adjacent asterisks 
-    ONLY if the number is palindrome. A palindrome is a sequence of characters that reads 
+    Write a method named checkPalindrome that takes a number of five digits as 
+    a parameter.  A palindrome is a sequence of characters that reads 
     the same backward as forward, such as 12321, 55555, 45554, 11611. 
     The method should return the true if the number is palindrome. 
     */
@@ -95,11 +94,9 @@ public class App {
     }
     
      /* 
-    Write a method named drawPalindromeBarChart that takes a number of five digits as 
+    Write a method named drawBarChart that takes a number of five digits as 
     a parameter. Then, it displays for each digit the same number of adjacent asterisks 
-    ONLY if the number is palindrome. A palindrome is a sequence of characters that reads 
-    the same backward as forward, such as 12321, 55555, 45554, 11611. 
-    The method should return the true if the number is palindrome. 
+    ONLY if the number is palindrome. 
     */
 
     public static int drawBarChart (int num){
